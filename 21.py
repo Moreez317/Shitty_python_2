@@ -1,10 +1,9 @@
-def f21():
-    x = [2001, 'terra', 2016, 2010, 1972]
+def f21(x):
 
     if x[1] == 'opa':
         return 9
 
-    elif x[1] == 'end':
+    elif x[1] == 'edn':
         if x[2] == 2006:
             return 2
         elif x[2] == 2016:
@@ -32,4 +31,4 @@ def f21():
                 elif x[2] == 2006:
                     return 8
 
-print(f21())
+print(f21([2001, 'terra', 2016, 2010, 1972]))
